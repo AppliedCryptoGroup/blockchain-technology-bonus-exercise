@@ -71,7 +71,7 @@ Obviously, it can be executed several times (with the same or different senders)
 The "win" function can be executed later but must be executed before Sun Jun 25 2023 23:59:59,
 the time of grading. Your attack is successful if the variable "successfulAttack" has the
 value "true" at time of grading. Full points will only be rewarded to successful attacks.
-We will regularily execute the "claim" function with an investment equal to
+We will regularly execute the "claim" function with an investment equal to
 "previous_investment + 1".
 
 *Note: If the contract gets locked, please contact me to get another instance. 
@@ -94,9 +94,9 @@ that has the following format:
 >
 >== Group Information
 >
-> <First name group member 1>, <Last name group member 1>, <Matiriculation number group member 1>   
-> [<First name group member 2>, <Last name group member 2>, <Matiriculation number group member 2>]   
-> [<First name group member 3>, <Last name group member 3>, <Matiriculation number group member 3>]   
+> <First name group member 1>, <Last name group member 1>, <Matriculation number group member 1>   
+> [<First name group member 2>, <Last name group member 2>, <Matriculation number group member 2>]   
+> [<First name group member 3>, <Last name group member 3>, <Matriculation number group member 3>]   
 >
 > == Solution 1.1
 >
