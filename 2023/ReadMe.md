@@ -68,7 +68,7 @@ and deploy a smart contract for a successful attack.
 
 You will have time until Sun Jun 25 2023 23:59:59 to execute the "claim" function.
 Obviously, it can be executed several times (with the same or different senders).
-The "win" function can be executed later but must be executed before Sun Jun 25 2023 23:59:59,
+The "win" function can be executed later but must be executed before Sun Jun 25, 2023 at 23:59:59,
 the time of grading. Your attack is successful if the variable "successfulAttack" has the
 value "true" at time of grading. Full points will only be rewarded to successful attacks.
 We will regularly execute the "claim" function with an investment equal to
@@ -83,7 +83,8 @@ I strongly recommend to test the attack on a local network with a smaller value 
 
 Your solution has to be submitted via moodle and should contain three files that
 follow the specifications below. Files with different names or format cannot be
-accounted.
+accounted. The deadline for submissions is Sun Jun 25, 2023 at at 23:59. Only
+one member of the group has to submit the solution.
 
 Your solutions for exercise 1.2, 2.1 and the address of your deployed contract
 of exercise 1.1 needs to be submitted as a text file called   
