@@ -86,8 +86,8 @@ follow the specifications below. Files with different names or format cannot be
 accounted. The deadline for submissions is Sun Jun 25, 2023 at at 23:59. Only
 one member of the group has to submit the solution.
 
-Your solutions for exercise 1.2, 2.1 and the address of your deployed contract
-of exercise 1.1 needs to be submitted as a text file called   
+Your solutions for exercise 1.2, 2.1 and the addresses of your deployed contracts
+of exercises 1.1 and 2.2 need to be submitted as a text file called   
 `<First name group member 1>_<Last name group member 1>_Solution.txt`
 that has the following format:
 
