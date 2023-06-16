@@ -21,9 +21,11 @@ should be able to recover his funds.
   for the same `lock` must be sent by the same depositor. A `Deposited` event
   should be emitted.
 - When `claim` is called, `require` that there is some ether stored at the
-  corresponding `lock = keccak256(key)` and that the claim period is not over,
-  yet. If successful, send the stored ether for the lock to the sender of the
-  `claim` call. A `Claimed` event should be emitted.
+  corresponding `lock = keccak256(abi.encode(key))` and that the claim period
+  is not over, yet. If successful, send the stored ether for the lock to the
+  sender of the `claim` call. A `Claimed` event should be emitted.
+  Example: `0x38dfe4635b27babeca8be38d3b448cb5161a639b899a14825ba9c8d7892eb8c3` is
+  the hash of `0x0000000000000000000000000000000000000000000000000000000000000042`
 - When `recover` is called, check that the claim period for this lock is over
   and that the sender of the transaction is the initial depositor.
 
