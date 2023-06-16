@@ -24,6 +24,7 @@ should be able to recover his funds.
   corresponding `lock = keccak256(abi.encode(key))` and that the claim period
   is not over, yet. If successful, send the stored ether for the lock to the
   sender of the `claim` call. A `Claimed` event should be emitted.
+  
   Example: `0x38dfe4635b27babeca8be38d3b448cb5161a639b899a14825ba9c8d7892eb8c3` is
   the hash of `0x0000000000000000000000000000000000000000000000000000000000000042`
 - When `recover` is called, check that the claim period for this lock is over
