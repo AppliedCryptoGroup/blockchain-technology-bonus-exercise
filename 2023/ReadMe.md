@@ -50,7 +50,7 @@ You can connect to the testnetwork with the following data:
 - RPC-URL: http://130.83.239.101:4242
 - Chain ID: 4242
 - Currency: ETH
-- Websocket-URL: "ws://130.83.239.101:4242
+- Websocket-URL: ws://130.83.239.101:4242
 
 Every group will attack its own instance of the contract. Contact me, David,
 with your EOA address to get some Ether and the address of the contract that
