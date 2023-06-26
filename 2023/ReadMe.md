@@ -71,7 +71,7 @@ and deploy a smart contract for a successful attack.
 
 You will have time until Sun Jun 25 2023 23:59:59 to execute the "claim" function.
 Obviously, it can be executed several times (with the same or different senders).
-The "win" function can be executed later but must be executed before Sun Jun 25, 2023 at 23:59:59,
+The "win" function can be executed later but must be executed before Sun Jul 2, 2023 at 23:59:59,
 the time of grading. Your attack is successful if the variable "successfulAttack" has the
 value "true" at time of grading. Full points will only be rewarded to successful attacks.
 We will regularly execute the "claim" function with an investment equal to
